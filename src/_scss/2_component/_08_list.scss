@@ -5,5 +5,61 @@ list
 /*
 ------------------------------------------------------------*/
 .c-list1 {
-	
+    li::before {
+        content: "\f111";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 0.6rem;
+        margin-right: 6px;
+        position: relative;
+        top: -1.5px;
+    }
+}
+
+.c-list2 {
+    li::before {
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 1.1rem;
+        margin-right: 7px;
+    }
+}
+
+.c-list3 {
+    li::before {
+        content: "\f0c1";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 700;
+        font-size: 1rem;
+        margin-right: 7px;
+    }
+}
+
+.c-list--ol1 { 
+    ol {
+        counter-reset: item;
+        position: relative;
+        left: 16px;
+        line-height: 2;
+        font-size: 1.5rem;
+
+        ol {
+            padding-left: 31px;
+        }
+    }
+    
+    ol li {
+        display: block;
+        position: relative; 
+    }
+
+    ol li::before {
+        content: counters(item, ".")".";
+        color: #f5989d;
+        counter-increment: item;
+        position: absolute;
+        margin-right: 100%;
+        right: 3px; /* space between number and text */
+    }
 }

@@ -5,5 +5,79 @@ table
 /*
 ------------------------------------------------------------*/
 .c-table1 {
-	
+    border-collapse: collapse;
+
+    table,
+    th,
+    td {
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+
+    &__style1 {
+        width: 490px;
+        height: 144px;
+
+        tr:first-child {
+            background-color: #acd373;
+        }
+
+        tr:nth-child(2),
+        tr:nth-child(3) {
+            td:first-child {
+                background-color: #ece6e6;
+            }
+        }
+
+        tr:last-child {
+            td:first-child {
+                background-color: #6dcff6;
+            }
+        }
+
+        td:first-child {
+            width: 67px;
+        }
+    }
+
+    &__style2 {
+        width: 490px;
+        height: 108px;
+
+        tr {
+            th {
+                background-color: #d3d7d9;
+            }
+        }
+
+        th:first-child {
+            width: 67px;
+        }  
+    }
+
+    &__style3 {
+        width: 1000px;
+        line-height: 34.5px;
+        
+        tr:first-child {
+            background-color: #acd373;
+            text-transform: capitalize;
+            color: #fff;
+            font-size: 1.3rem;
+        }
+        
+        td:first-child {
+            background-color: #ece6e6;
+            text-transform: capitalize;
+            font-weight: 600;
+            width: 173px;
+        }
+
+        td:nth-child(2),
+        td:nth-child(3),
+        td:nth-child(4) {
+            width: 275px;
+        }
+    }
+    
 }

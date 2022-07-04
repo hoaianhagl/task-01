@@ -1,0 +1,79 @@
+.p-nested1 {
+    &__btnlinks {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+    
+        span::before {
+            content: "\f078";
+            font-family: "Font Awesome 5 Free";
+            font-size: 1rem;
+            font-weight: 800;
+            padding-right: 3px;
+        }
+    }
+
+    &__anchorlink {
+        margin-bottom: 33px;
+
+        h2 {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 8px;
+            margin-bottom: 26px;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #758dfb;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__anchorlink2 {
+        margin-bottom: 48px;
+    
+        h2 {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 8px;
+            margin-bottom: 31px;
+        }
+    }
+
+    &__table {
+        margin-bottom: 107px;
+
+        h3 {
+            font-weight: 600;
+            background-color: #ece6e6;
+            line-height: 38px;
+            margin-bottom: 23px;
+            padding-left: 14px;
+        }
+        
+        p {
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        span {
+            text-decoration: underline;
+        }
+
+        .c-table1 {
+            &__style1 {
+                margin-bottom: 51px;
+            }
+        }   
+    }
+}
+
+    
+
+

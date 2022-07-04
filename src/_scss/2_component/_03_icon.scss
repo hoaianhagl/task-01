@@ -4,3 +4,38 @@ icon
 
 /*
 ------------------------------------------------------------*/
+.u-icon--style1 {
+    &::before {
+        content: "\f075";
+        font-family: "Font Awesome 5 Free";
+        font-size: 2rem;
+        font-weight: 800;
+        padding-right: 6px;
+        position: relative;
+        top: 1px;
+    }
+}
+
+.u-icon--style2 {
+    &::before {
+        content: "\f4d8";
+        font-family: "Font Awesome 5 Free";
+        font-size: 2rem;
+        font-weight: 800;
+        padding-right: 6px;
+        position: relative;
+        top: 1px;
+    }
+}
+
+.u-icon--style3 {
+    &::before {
+        content: "\f53f";
+        font-family: "Font Awesome 5 Free";
+        font-size: 2rem;
+        font-weight: 800;
+        padding-right: 6px;
+        position: relative;
+        top: 1.6px;
+    }
+}

@@ -5,10 +5,36 @@ btn
 /*
 ------------------------------------------------------------*/
 .c-btn1 {
+    font-size: 1.4rem;
     display: inline-block;
-    padding: 10px 50px;
+    border: 0 none;
+    // text-align: center;
+    font-family: "Yu Gothic";
+}
+
+.c-btn2 {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 95px;
+    line-height: 63px;
+    font-family: "Yu Gothic";
+}
+
+.c-btn3 {
+    background-color: #00aeef;
+    display: inline-block;
+    border: 0 none;
+    line-height: 44px;
+    padding: 0 96px;
+    border-radius: 5px;
+    color: #fff;
     font-size: 1.6rem;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    line-height: 1;
+    font-family: "Yu Gothic";
+    font-weight: 550;
 }

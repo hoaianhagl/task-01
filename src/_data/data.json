@@ -6,16 +6,12 @@
         "url": "/"
       },
       {
-        "title": "About",
-        "url": "/about.html"
-      },
-      {
-        "title": "Nested 1",
-        "url": "/nested/",
+        "title": "link 1",
+        "url": "link1.html",
         "links": [
           {
-            "title": "Nested 2",
-            "url": "/nested/nested/"
+            "title": "link 2",
+            "url": "link2.html"
           }
         ]
       }

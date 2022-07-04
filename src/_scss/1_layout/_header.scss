@@ -1,29 +1,38 @@
 /* Header
 ------------------------------------------------------------*/
 .c-header {
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    margin: 0 auto 14px;
+    padding: 19px 0;
     position: relative;
     background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba($color: #a8a8a8, $alpha: 1);
+
+    &__logo {
+        height: 50px;
+        width: 250px;
+    }
+    
 }
+
 /* Main menu
 ------------------------------------------------------------*/
 .c-gnav {
-    ul {
+    .is-active {
+        font-weight: 600;
     }
 
     li {
-        display: inline-block;
-
-        + li {
-            margin-left: 20px;
-        }
+        display: inline-block;  
     }
 
     a {
-        font-size: 1.6rem;
+        margin-left: 27px;
+        font-size: 1.4rem;
+        font-weight: 580;
         text-transform: capitalize;
     }
 }

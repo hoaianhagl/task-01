@@ -1,6 +1,43 @@
 /* Breadcrumb
 ------------------------------------------------------------*/
 .c-breadcrumb {
-	
-}
+    padding: 13px 100px 0;
+    display: inline-block;
+    
+    a::before {
+        content: "\f015";
+        font-family: "Font Awesome 5 Free";
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-right: 3px;
+    }
 
+    a::after {
+        content: "Home";
+        font-family: "Yu Gothic";
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        text-decoration: underline;
+        position: relative;
+        top: 1px;
+    }
+
+    &__footer {
+        padding: 7px 100px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        width: $base-width;
+    }
+
+    &__link1 {
+        span::before {
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 0 8px;
+        }
+    }
+    
+    
+}
