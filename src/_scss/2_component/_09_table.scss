@@ -20,6 +20,7 @@ table
 
         tr:first-child {
             background-color: #acd373;
+            color: #ffffff;
         }
 
         tr:nth-child(2),
@@ -66,11 +67,15 @@ table
             font-size: 1.3rem;
         }
         
-        td:first-child {
-            background-color: #ece6e6;
-            text-transform: capitalize;
-            font-weight: 600;
-            width: 173px;
+        tr:nth-child(2),
+        tr:nth-child(3),
+        tr:nth-child(4) {
+            th {
+                background-color: #ece6e6;
+                text-transform: capitalize;
+                font-weight: 600;
+                width: 173px;
+            }
         }
 
         td:nth-child(2),

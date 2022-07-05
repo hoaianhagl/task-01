@@ -1,4 +1,11 @@
-.p-nested1 {
+.p-link1 {
+    width: 1000px;
+    margin: 37px auto;
+
+    .c-label1 {
+        padding: 0 20px;
+    }
+
     &__btnlinks {
         display: flex;
         justify-content: space-between;
@@ -7,9 +14,11 @@
         span::before {
             content: "\f078";
             font-family: "Font Awesome 5 Free";
-            font-size: 1rem;
-            font-weight: 800;
+            font-size: 1.2rem;
+            font-weight: 600;
             padding-right: 3px;
+            position: relative;
+            right: 1.4px;
         }
     }
 
@@ -17,10 +26,6 @@
         margin-bottom: 33px;
 
         h2 {
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 8px;
             margin-bottom: 26px;
         }
 
@@ -38,23 +43,25 @@
         margin-bottom: 48px;
     
         h2 {
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 8px;
+            margin-bottom: 31px;
+        }
+    }
+
+    &__anchorlink3 {
+        h2 {
             margin-bottom: 31px;
         }
     }
 
     &__table {
-        margin-bottom: 107px;
+        margin-bottom: 108px;
 
         h3 {
             font-weight: 600;
             background-color: #ece6e6;
             line-height: 38px;
             margin-bottom: 23px;
-            padding-left: 14px;
+            padding-left: 13px;
         }
         
         p {

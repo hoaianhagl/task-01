@@ -2,33 +2,31 @@
 footer
 ------------------------------------------------------------*/
 .c-footer {
-    
-    
+    width: 100%;
     margin: 0 auto;
 
     &__inner {
         background: #fafafa;
         display: flex;
         margin: 0 auto;
-        padding: 34px 100px 36px;
+        padding: 34px 451px 35px;
         justify-content: space-between;
         border-bottom: 1px solid #cccc;
     }
 
     &__content {
         width: 30%;
-        align-items: flex-start;
 
-        h3 {
+        h2 {
             font-size: 1.4rem;
             border-bottom: 1px solid #cccc;
-            padding-bottom: 5px;
+            padding-bottom: 6px;
         }
 
         ul {
-            margin-top: 4px;
+            margin-top: 2px;
             font-size: 1.4rem;
-            line-height: 1.4;
+            line-height: 1.45;
         }
     }
 

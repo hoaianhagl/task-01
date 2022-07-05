@@ -7,13 +7,11 @@
       },
       {
         "title": "link 1",
-        "url": "link1.html",
-        "links": [
-          {
-            "title": "link 2",
-            "url": "link2.html"
-          }
-        ]
+        "url": "link1.html"
+      },
+      {
+        "title": "link 2",
+        "url": "link2.html"
       }
     ]
   }

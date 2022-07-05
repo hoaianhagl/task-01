@@ -1,36 +1,38 @@
 /* Breadcrumb
 ------------------------------------------------------------*/
 .c-breadcrumb {
-    padding: 13px 100px 0;
+    padding: 13px 450px 0;
     display: inline-block;
+    position: relative;
+    // left: 350px;
     
     a::before {
         content: "\f015";
         font-family: "Font Awesome 5 Free";
         font-size: 1.4rem;
         font-weight: 700;
-        margin-right: 3px;
+        position: absolute;
     }
 
-    a::after {
-        content: "Home";
-        font-family: "Yu Gothic";
+    span:first-child {
         text-transform: uppercase;
         font-size: 1.4rem;
-        text-decoration: underline;
-        position: relative;
-        top: 1px;
+        margin-left: 21px;
     }
 
     &__footer {
-        padding: 7px 100px;
+        width: 100%;
+        padding: 6px 0;
         border-top: 1px solid #ccc;
         border-bottom: 1px solid #ccc;
-        width: $base-width;
     }
 
     &__link1 {
-        span::before {
+        span:first-child {
+            text-decoration: underline;
+        }
+
+        span:nth-child(2)::before {
             content: "\f105";
             font-family: "Font Awesome 5 Free";
             font-size: 1.4rem;

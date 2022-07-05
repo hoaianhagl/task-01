@@ -30,3 +30,29 @@ other
         left: 4px;
     }
 }
+
+.c-label1 {
+    font-size: 1.4rem;
+    display: inline-block;
+    border: 0 none;
+    font-family: "Yu Gothic";
+}
+
+.c-btnlink2 {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 95px;
+    line-height: 63px;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}

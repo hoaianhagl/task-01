@@ -7,12 +7,13 @@
       <% if (typeof linklists != 'undefined') { %>
         <% linklists.main && linklists.main.forEach(link => { %>
           
-            <a <% if (link.current || link.active) { %>class="is-active"<% } %> href="<%= link.url %>"><%= link.title %></a>
+            <li><a <% if (link.current || link.active) { %>class="is-active"<% } %> href="<%= link.url %>"><%= link.title %></a></li>
             <% if (link.links) { %>
                 <% link.links.forEach(child_link => { %>
+                  <li>
                     <a <% if (child_link.current) { %>class="is-active"<% } %> href="<%= child_link.url %>"><%= child_link.title %></a>
+                  </li>
                 <% }) %>
-              
             <% } %>
           
         <% }) %>
