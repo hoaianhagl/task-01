@@ -2,7 +2,6 @@
 ------------------------------------------------------------*/
 .c-breadcrumb {
     position: relative;
-    padding-top: 13px;
 
     &__home {
         font-size: 1.4rem;
@@ -13,10 +12,10 @@
         &::before {
             content: "\f015";
             font-family: "Font Awesome 5 Free";
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-weight: 700;
             position: absolute;
-            top: 15;
+            top: 0;
             left: 0;
         }
     }
