@@ -1,38 +1,31 @@
 /* Breadcrumb
 ------------------------------------------------------------*/
 .c-breadcrumb {
-    padding: 13px 450px 0;
-    display: inline-block;
     position: relative;
-    // left: 350px;
-    
-    a::before {
-        content: "\f015";
-        font-family: "Font Awesome 5 Free";
-        font-size: 1.4rem;
-        font-weight: 700;
-        position: absolute;
-    }
+    padding-top: 13px;
 
-    span:first-child {
+    &__home {
+        font-size: 1.4rem;
         text-transform: uppercase;
-        font-size: 1.4rem;
-        margin-left: 21px;
-    }
-
-    &__footer {
-        width: 100%;
-        padding: 6px 0;
-        border-top: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
-    }
-
-    &__link1 {
-        span:first-child {
-            text-decoration: underline;
+        color: #000;
+        padding-left: 20px;
+    
+        &::before {
+            content: "\f015";
+            font-family: "Font Awesome 5 Free";
+            font-size: 1.5rem;
+            font-weight: 700;
+            position: absolute;
+            top: 15;
+            left: 0;
         }
+    }
 
-        span:nth-child(2)::before {
+    &__item {
+        font-size: 1.4rem;
+        color: #000;
+
+        &::before {
             content: "\f105";
             font-family: "Font Awesome 5 Free";
             font-size: 1.4rem;
@@ -41,5 +34,14 @@
         }
     }
     
+    &__footer {
+        padding: 6px 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+
+        .l-container {
+            position: relative;
+        }
+    }
     
 }

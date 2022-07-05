@@ -3,8 +3,6 @@
 body {
     font-family: $main-fonts;
     font-size: 1.4rem;
-    width: 100%;
-    margin: 0 auto;
     line-height: 1.5;
     color: #222;
     @include sp {
@@ -13,7 +11,7 @@ body {
 }
 //-------------------------------------------------------
 main {
-    margin: 37px auto 0;
+    margin: 0 auto;
 }
 
 section {

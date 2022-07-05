@@ -6,9 +6,8 @@ Css of home page
     //-------------------------------------------------------
     .c-mainvisual {
         position: relative;
-        width: 1000px;
         height: 360px;
-        margin: 0 auto 43px;
+        margin: 37px auto 43px;
 
         img {
             width: 1000px;
@@ -18,10 +17,10 @@ Css of home page
         &__inner {
             position: absolute;
             left: 40px;
-            bottom: 30px;
+            bottom: 31px;
         }
 
-        h2 {
+        h1 {
             font-size: 1.9rem;
             line-height: 1.6;
             font-weight: bold;
@@ -41,13 +40,12 @@ Css of home page
     //------------------------------
     .p-news {
         position: relative;
-        width: 1000px;
         margin: 0 auto 61px;
 
         .c-title1 {
             background-color: #fff9da;
             border: 1px solid #ffd800;
-            border-left: 6px solid #ffd800;
+            border-left: 7px solid #ffd800;
             margin-bottom: 29px;
         }
 
@@ -93,7 +91,7 @@ Css of home page
         &__btnlink {
             background-color: #afafaf;
             color: #fff;
-            font-family: "Yu Gothic";
+            font-family: inherit;
             font-size: 1.6rem;
             font-weight: 500;
             border-radius: 6px;
@@ -121,7 +119,6 @@ Css of home page
     //-----------------------------------------------------
     .p-blog {
         position: relative;
-        width: 1000px;
         margin: 0 auto 225px;
         
         .c-title1 {

@@ -1,6 +1,5 @@
 .p-link1 {
-    width: 1000px;
-    margin: 37px auto;
+    margin: 0 auto;
 
     .c-label1 {
         padding: 0 20px;
@@ -9,7 +8,7 @@
     &__btnlinks {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 64px;
+        margin: 37px 0 64px;
     
         span::before {
             content: "\f078";
@@ -78,6 +77,12 @@
                 margin-bottom: 51px;
             }
         }   
+    }
+
+    .c-breadcrumb {
+        &__home {
+            text-decoration: underline;
+        }
     }
 }
 

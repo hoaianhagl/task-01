@@ -21,8 +21,10 @@
 /* Main menu
 ------------------------------------------------------------*/
 .c-gnav {
+    color: #000;
+
     .is-active {
-        font-weight: 600;
+        font-weight: 700;
     }
 
     li {
@@ -30,9 +32,9 @@
     }
 
     a {
-        margin-left: 29px;
+        margin-left: 32px;
         font-size: 1.3rem;
-        font-weight: 600;
+        font-weight: 500;
         text-transform: capitalize;
     }
 }

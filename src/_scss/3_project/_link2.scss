@@ -1,5 +1,5 @@
 .p-link2 {
-    width: 1000px;
+    margin: 0 auto;
 
     h1 {
         text-transform: uppercase;
@@ -9,7 +9,7 @@
         border: 2px solid #000;
         line-height: 77px;
         text-align: center;
-        margin-bottom: 50px;
+        margin: 37px 0 50px;
     }
     
     h2 {
@@ -69,6 +69,12 @@
 
         .c-table1 {
             margin-bottom: 125px;
+        }
+    }
+
+    .c-breadcrumb {
+        &__home {
+            text-decoration: underline;
         }
     }
 }
